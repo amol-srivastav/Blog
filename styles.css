@@ -1,0 +1,121 @@
+/* Basic styles for the blog website */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #56b0c9;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background-color: #f4f4f4;
+    padding: 2em 0;
+    text-align: center;
+}
+
+.hero h2 {
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+.featured-posts {
+    padding: 2em 0;
+}
+
+.featured-posts h2 {
+    text-align: center;
+}
+
+.posts {
+    display: flex;
+    justify-content: space-around;
+}
+
+.posts article {
+    width: 45%;
+    background-color: #fff;
+    padding: 1em;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.posts article img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #56b0c9;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 1em;
+}
+
+form input, form textarea {
+    padding: 0.5em;
+    margin-top: 0.5em;
+}
+
+form button {
+    margin-top: 1em;
+    padding: 0.7em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+.button{
+    background-color: #56b0c9;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
